@@ -10,7 +10,7 @@ we provide an [Anaconda](https://docs.anaconda.com/anaconda/install/) environmen
 
 To get started, first clone the repository
 ```
-git clone https://github.com/nirgreshler/CooperativeWarehouse.git -b for_production
+git clone https://github.com/CRL-Technion/Cooperative-MAPF.git
 ```
 Run the following commands to setup the environment using Anaconda
 ```
