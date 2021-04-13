@@ -206,8 +206,8 @@ class AllDijkstra:
         heappush(openSet, startNode)
         while openSet:
             current = heappop(openSet)
-            # if current.data.location != startNode.data.location:
-            self.visited[current.data.location.tuple()] = True
+            if current.data.location != startNode.data.location:
+                self.visited[current.data.location.tuple()] = True
             current.out_openset = True
             current.closed = True
             for neighbor in map(lambda n: searchNodes[n], self.neighbors(current.data)):
