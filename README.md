@@ -30,7 +30,7 @@ by changing the verbose variable in ```config.py```, to 0,1,2.
 
 
 ## Running Experiments
-Use can backtrack benchmark experiments presented in the paper by running the ```run.py``` script using the following arguments
+You can backtrack benchmark experiments presented in the paper by running the ```run.py``` script using the following arguments
 
 ### Standard benchmarks
 This repository contains standard MAPF benchmarks taken from the [Nathan Sturtevant's Moving AI Lab](https://movingai.com/benchmarks/mapf.html):
