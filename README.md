@@ -22,7 +22,7 @@ conda activate Co-MAPF
 
 To run Co-CBS algorithm on an example warehouse environment, and visualize using the [asprilo visualizer](https://asprilo.github.io/visualizer/), run
 ```
-python Co-CBS.py
+python CoCBS.py
 ```
 
 You can change the level of output printed to console by Co-CBS during the run,
@@ -67,7 +67,7 @@ where
 Examples:
 ```
 python run.py den312d SOC 10 0.0 8 7
-python run.py --show custom_warehouse_20_10 MKSP 10 0.0 6 182
+python run.py --show custom_warehouse_20_10 MKSP 10 0.0 4 182
 ```
 ### Batch of experiments
 The ```run_batch.py``` script provided is used to create a shell script to run a batch of experiments.
