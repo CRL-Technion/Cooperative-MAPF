@@ -14,7 +14,7 @@ git clone https://github.com/CRL-Technion/Cooperative-MAPF.git
 ```
 Run the following commands to setup the environment using Anaconda
 ```
-cd CooperativeWarehouse
+cd Cooperative-MAPF
 conda env create -f Co-MAPF.yml
 conda activate Co-MAPF
 ```
