@@ -1,5 +1,7 @@
 # Cooperative Multi-Agent Path Finding (Co-MAPF)
-Project description, reference to paper...
+Python code for the Cooperative Multi-Agent Path Finding (Co-MAPF) framework and the Cooperative Conflict-Based Search (Co-CBS) algorithm.
+Please refer to the paper for more details:
+Greshler, N., Gordon, O., Salzman, O., & Shimkin, N. (2021). Cooperative Multi-Agent Path Finding: Beyond Path Planning and Collision Avoidance.
 
 [![A Cooperative Warehouse Illustration](warehouse-illustration_final.png?raw=true "A Cooperative Warehouse Illustration")](https://drive.google.com/file/d/12byXaWdHV-CQZonSEQ0lzeAN2CkwTuJk/view?usp=sharing)
 
