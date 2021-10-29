@@ -52,8 +52,8 @@ int main(int argc, char** argv)
 		// ("sipp", po::value<bool>()->default_value(false), "using sipp as the single agent solver")
 		("lazyExpansion", po::value<bool>()->default_value(false), "lazy expansion of root nodes")
 		// ("rootTieBreaker", po::value<string>()->default_value("Sum"), "tie breaker for root nodes")
-		("taskAssignment", po::value<string>()->default_value("None"), "task assignment type (None, Greedy, Search)")
-		("num_assignments,nm", po::value<int>()->default_value(1), "number of assignments to search")
+		("taskAssignment", po::value<string>()->default_value("None"), "task assignment type (None, Greedy, Single, Full)")
+		("num_assignments,nm", po::value<int>()->default_value(1), "number of assignments to search, when using 'Single' or 'Full' for task assignment type")
 		// ("run_baseline,b", po::value<bool>()->default_value(false), "run a greedy baseline algorithm")
 		;
 
