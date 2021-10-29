@@ -25,13 +25,14 @@ git clone https://github.com/CRL-Technion/Cooperative-MAPF.git
 ```
 The code requires the external library BOOST (https://www.boost.org/). After you installed BOOST and downloaded the source code, go into the directory of the source code and compile it with CMake: 
 ```
+cd Cooperative-MAPF
 cmake .
 make
 ```
 
 To run the code:
 ```
-./cocbs -m random-32-32-20.map -a random-32-32-20-random-1.scen -o test.csv -k 12 -t 60 -s 2
+./cocbs -m random-32-32-20.map -a random-32-32-20-random-1.scen -o test.csv -k 10 -t 60 -s 2
 ```
 
 - m: the map file from MAPF benchmark folder ('\benchmarks').
